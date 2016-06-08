@@ -8,12 +8,19 @@
 
 This app evaluates a year input against the following criteria with the following outputs
 
+Leap Year Evaluator
+
 |Behavior    |Input   |Output   |
 |---|---|---|
 |a year that is NOT a leap year   |1993   |false   |
 |a year that is divisible by 4   |2004   |true   |
 |a year that is divisible by 100   |1900   |false   |
 |a year that is divisible by 400   |2000   |true   |
+
+Form Validation
+
+|Behavior    |Input   |Output   |
+|---|---|---|
 |a year that is a negative number   |-1234   |alert enter a positive integer   |
 |a year that is blank   |null   |alert required   |
 |a year that is non numeric   |"not a year"   |non-numeric input not allowed   |
