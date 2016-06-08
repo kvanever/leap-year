@@ -20,14 +20,12 @@ $(function () {
       $(".year").addClass("has-error");
     }
     else {
-      leapYear(year);
-      if (leapYear) {
+      if (leapYear(year) === true) {
         $("#output").html("<p>" + year + " is a leap year</p>")
       }
       else {
         $("#output").html("<p>" + year + " is NOT a leap year</p>")
       }
     }
-
   })
 })
